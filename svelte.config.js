@@ -13,7 +13,7 @@ const config = {
 		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
 		adapter: adapter({
 			images: {
-				domains: ['localhost', '127.0.0.1']
+				sizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840]
 			}
 		}),
 
